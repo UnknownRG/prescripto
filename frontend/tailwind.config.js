@@ -1,19 +1,16 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-    content: [
-      "./index.html",
-      "./src/**/*.{js,ts,jsx,tsx}"
-    ],
-    theme: {
-      extend: {
-        colors: {
-          primary: '#5f6FFF', // 🎨 your custom primary color
-        },
-        gridTemplateColumns:{
-          'auto' : 'repeat(auto-fill,minmax(200px,1fr))'
-        }
-      },
+// tailwind.config.js
+module.exports = {
+  darkMode: 'class',
+content: ["./src/**/*.{js,jsx,ts,tsx}"],
+theme: {
+  extend: {
+    colors: {
+      primary: "#1fb6ff",
     },
-    plugins: [],
-  }
-  
+    gridTemplateColumns:{
+      'auto': 'repeat(auto-fill, minmax(200px, 1fr))'
+    }
+  },
+},
+plugins: [],
+}
