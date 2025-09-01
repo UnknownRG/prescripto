@@ -31,29 +31,6 @@ Backend:
 - Admin dashboard (manage doctors, appointments, users)
 - Responsive UI with modern design
 
---------------------------------------------------
-📂 Folder Structure
---------------------------------------------------
-
-prescripto/
-│── backend/         # Express.js + MongoDB backend
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middlewares/
-│   └── server.js
-│
-│── frontend/        # React.js frontend
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── context/
-│   │   ├── utils/
-│   │   └── App.jsx
-│   └── vite.config.js
-│
-│── README.md
-│── package.json
 
 --------------------------------------------------
 ⚡ Installation & Setup
